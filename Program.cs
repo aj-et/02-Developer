@@ -25,12 +25,12 @@ Game:
             gPoints += 100;
         }
         else {
-            gPoints -= 300;
+            gPoints -= 75;
         }
     }
     if (uGuess == "l" || uGuess == "L"){
         if (nnum > num){
-            gPoints -= 300;
+            gPoints -= 75;
         }
         else {
             gPoints += 100;
